@@ -1,0 +1,386 @@
+.barSup{
+    font-family: 'Roboto';
+    line-height: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 5%;
+    color: #F3F3F3;
+    height: 40px;
+    background-color: black;
+}
+
+.option{
+    font-family: 'Roboto';
+}
+
+
+.menuRe{
+    display: flex;
+    align-items: center;
+}
+
+.navBar{
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav1{
+    display: flex;
+    width: 450px;
+    color: white;
+    justify-content: space-evenly;
+    align-self:center;
+    padding-right: 4%;
+}
+
+.nav-text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portada{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+}
+
+.info{
+    text-align: center;
+    color: #3C2313;
+    font-family: 'Roboto';
+}
+
+.info-portada{
+    display: flex;
+    font-size: 50px;
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 95px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    background-color: #F0A83E;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+
+.label{
+    height: 20px;
+    width: 40px;
+}
+
+.idiomas-moneda{
+    font-size: 12px; 
+    height: 25px; 
+    width: 80px;
+}
+
+.productos{  
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 60px;
+    color: #3C2313;
+    margin-bottom: 80px;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.destacados{
+    color: #666666;
+    font-size: 35px;
+    text-decoration: none;
+    word-spacing: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    height: 312px;
+    width: 265px;
+    background-color: #FBFAF6;
+    flex-direction: column;
+    
+}
+
+.card-1{
+    display: flex;
+    height: 220px;
+    width: 220px;
+    align-content: center;
+    background-image: url('../img/churrasquito.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.card-2{
+    display: flex;
+    height: 220px;
+    width: 220px;
+    align-content: center;
+    background-image: url('../img/comedero.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.card-3{
+    display: flex;
+    height: 220px;
+    width: 220px;
+    align-content: center;
+    background-image: url('../img/Huesito.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.card-info{
+    text-align: center;
+    width: 255px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.title-card{
+    margin: 0%;
+    color: #3C2313 ;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.price-card{
+    margin: 0%;
+    color: #F0A83E;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.fa-paw{
+    font-size: 20px;
+    color: white;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.title-contacto{
+    margin:auto;
+    color: #3C2313 ;
+    font-size: 30px;
+}
+
+.datos-contacto{
+    width: 400px;
+    height: 40px;
+    background-color: #3C2313;
+    color: white;
+    font-family: 'Roboto';
+    border-radius: 25px;
+    outline: none;
+    border-style: none;
+    font-size: 15px;
+}
+
+input::placeholder.datos-contacto{
+    font-family: 'Roboto';
+    
+}
+
+.contacto-datos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: white;
+    border-radius: 18px;
+    border-width: 0px;
+}
+
+.reset{
+    background-color: #8A8787;
+}
+
+.send{
+    background-color: #F0A83E;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #F0A83E;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+
+.subs-btn{
+    align-content: center;
+    margin-right: 3%;
+}
+
+.logo-subs{
+    margin-left: 3%;
+}
+
+
+.subs{
+    background-color: #3C2313;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+.in-sub{
+    color: black;
+    border-style: none;
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    border-radius: 18px;
+    outline: none;
+    font-size: 12px;
+}
+
+input::placeholder.in-sub{
+    font-family: 'Roboto';
+    
+}
+
+.footer{
+    display: flex;
+    height: 350px;
+    background-color:#3C2313 ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    height: 350px;
+    margin-left: 5%;
+    width: 600px;
+}
+
+.derechos{
+    display: flex;
+    background-color: #222222;
+    height: 35px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    background-color: #8A8787;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: solid 5px #786960;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fa-mail-bulk{
+    font-size: 40px;
+    color: white;
+}
+
+.fa-phone-alt{
+    font-size: 40px;
+    color: white;
+}
+
+.fa-map-marked-alt{
+    font-size: 40px;
+    color: white;
+}
+
+.icons-info{
+    display: flex;
+    
+}
+
+.title-icon{
+    margin: 0;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+.par-icon{
+    margin: 0;
+    color: #8A8787;
+    font-family: 'Roboto';
+}
+
+.info-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+}
+
+.img-footer{
+    display: flex;
+    margin: 5%;
+}
