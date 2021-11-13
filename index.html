@@ -11,7 +11,9 @@
 <body>
     <header> 
         <div class="barSup" >
-            <p style="height: 12px; font-size: 15px;"> Grandes ofertas en comedores </p>
+            <div class="col-3 col-s-6">
+            <p style="height: 12px; font-size: 15px;"> Grandes ofertas en comederos </p>
+            </div>
             <div class="menuRe"> 
                 <label  for="idiomas"  class="label"></label>
                 <select name="idiomas" id="idiomas" class="label idiomas-moneda " >
@@ -28,12 +30,15 @@
             </div>
         </div>
         <div class="navBar" style="background-color: #F0A83E;">
-            <img src="./img/Cat&Dog.png" alt="Cat&Dog" height="40px" style="padding-left: 4%;">
-            <div class="nav1">
-                <div class="nav-list"> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Categorías</a> </div> 
-                <div class="nav-list"> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Pets</a> </div> 
-                <div class="nav-list"> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Nosotros</a> </div> 
-                <div class="nav-list"> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Contactanos</a> </div> 
+            <div style="padding-left: 4%;" class="img-nav-bar col-3 col-s-9 ">
+            <img src="./img/Cat&Dog.png" alt="Cat&Dog" height="40px"  >
+            </div>
+            <div class="nav1 col-6 col-s-2">
+                <div class="nav-list "> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Categorías</a> </div> 
+                <div class="nav-list "> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Pets</a> </div> 
+                <div class="nav-list "> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Nosotros</a> </div> 
+                <div class="nav-list "> <a href="#" class="nav-text"> <i class="fas fa-paw"> </i>Contactanos</a> </div> 
+                <div class="nav-list "><a href="#" class="nav-text icon"><i class="fa fa-bars"></i></a></div>
             </div>
         </div>        
     </header>
@@ -97,10 +102,10 @@
         
     </section>
     <section  class="subscribe">
-        <div class="logo-subs">
+        <div class="logo-subs col-6 col-s-12">
             <h2 style="margin: auto;"><img src="./img/Group.png" alt="Subscribirme" style="height: 30px;"> Suscríbete para más novedades</h2>
         </div>
-        <div class="subs-btn" style="vertical-align: middle;">
+        <div class="subs-btn col-4 col-s-12 flex-center" style="vertical-align: middle;">
             <input type="email" placeholder="Ingresa tu correo electrónico" class="in-sub" >
             <button class="btn subs"> suscribirme</button>
         </div>

@@ -1,3 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    width: 100%;
+}
+
+/* Tablet */
+@media screen and (min-width:600px){
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* Desktop */
+@media screen and (min-width:1024px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* cuando la pantalla sea menos de 1024px, esconder todos los links */
+@media screen and (max-width: 1024px){
+    .nav1 a{display: none;}
+    .nav1 a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+
+
+.img-nav-bar{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    
+}
+
 .barSup{
     font-family: 'Roboto';
     line-height: 12px;
@@ -10,44 +70,69 @@
     color: #F3F3F3;
     height: 40px;
     background-color: black;
+    flex-wrap: wrap;
+    
 }
 
 .option{
     font-family: 'Roboto';
 }
 
-
 .menuRe{
     display: flex;
     align-items: center;
 }
 
+header{
+    position: sticky;
+    top: 0;
+
+}
 .navBar{
     height: 62px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    
 }
 .nav1{
     display: flex;
-    width: 450px;
     color: white;
-    justify-content: space-evenly;
     align-self:center;
     padding-right: 4%;
+    justify-content: flex-end;
+    
 }
 
+.nav1 .icon{
+    display: none;
+}
+
+
 .nav-text{
+    display: flex;
     color: white;
     font-size: 20px;
     font-family: 'Roboto';
     text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+
+
+.nav-list a:hover{
+    background-color: #cf8413 ;
+    color: white;
+    border-radius: 5px;
+    
 }
 
 .nav-list{
     display: flex;
-    justify-content: space-evenly;
+    padding-left: 20px;
+    justify-content: flex-end;
 }
 
 .portada{
@@ -137,7 +222,8 @@
     width: 265px;
     background-color: #FBFAF6;
     flex-direction: column;
-    
+    margin: 1vh;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
 }
 
 .card-1{
@@ -258,22 +344,29 @@ input::placeholder.datos-contacto{
 .subscribe{
     display: flex;
     align-items: center;
-    height: 70px;
+    height: auto;
     background-color: #F0A83E;
     color: white;
     font-family: 'Roboto';
     font-size: 20px;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
 }
 
 .subs-btn{
+    display: flex;
     align-content: center;
     margin-right: 3%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo-subs{
+    display: flex;
     margin-left: 3%;
+    font-size: 20px;
+    justify-content: center;
 }
 
 
@@ -301,11 +394,12 @@ input::placeholder.in-sub{
 
 .footer{
     display: flex;
-    height: 350px;
+    height: auto;
     background-color:#3C2313 ;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 
